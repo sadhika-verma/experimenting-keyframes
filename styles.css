@@ -1,0 +1,81 @@
+html, body{
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+p{
+  font-size: 3rem;
+  color: white;
+  font-family: monospace;
+  margin: 0;
+  text-align: center;
+}
+
+.ass{
+  font-size: 1.5rem;
+  color: white;
+  font-family: cursive;
+  margin: 0;
+  text-align: right;
+}
+
+.bgcontain{
+  margin: 0;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  border: 5px solid purple;
+  box-sizing: border-box;
+}
+
+.ghost1{
+  margin: 0;
+  height: 50%;
+  width:  50%;
+  position: relative;
+  float: left;
+  transform: translate(-20%,50%);
+}
+
+.ghost2{
+  margin: 0;
+  height: 50%;
+  width:  50%;
+  position: relative;
+  float: right;
+  transform: translate(10%,50%);
+}
+
+.g1{
+  height: 120%;
+  width:  120%;
+}
+
+.g2{
+  height: 120%;
+  width:  120%;
+}
+
+@keyframes love{
+  0%   {left: 300px;}
+  25%  {left: 800px;}
+  75%  {left: 500px}
+  100% {left: 300px;}
+
+}
+
+.heart{
+  margin: 0;
+  height: 20%;
+  width: 20%;
+  position: relative;
+  animation: love 7s infinite;
+}
+
+.hh{
+  height: 100%;
+  width: 100%;
+}
